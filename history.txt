@@ -1,0 +1,656 @@
+    1  sudo passwd root
+    2  ls
+    3  mkdir aosp
+    4  cd aosp/
+    5  ls
+    6  clear
+    7  curl https://storage.googleapis.com/git-repo-downloads/repo > repo
+    8  sudo apt install curl
+    9  ping www.baidu.com
+   10  sudo apt install curl
+   11  sudo apt update
+   12  sudo apt install curl
+   13  ls
+   14  chmod 777 repo 
+   15  ls
+   16  sudo apt install vim
+   17  sudo apt install curl
+   18  curl https://storage.googleapis.com/git-repo-downloads/repo > repo
+   19  ls
+   20  vim repo 
+   21  suo apt install git
+   22  sudo apt install git
+   23  ./repo init -u git://mirrors.ustc.edu.cn/aosp/platform/manifest -b android-13.0.0_r24
+   24  sudo ln -s /usr/bin/python3 /usr/bin/python
+   25  ./repo init -u git://mirrors.ustc.edu.cn/aosp/platform/manifest -b android-13.0.0_r24
+   26  git config --global user.email "hisangke@gmail.com"
+   27  git config --global user.name "xiangke"
+   28  ./repo init -u git://mirrors.ustc.edu.cn/aosp/platform/manifest -b android-13.0.0_r24
+   29  ls
+   30  ls -al
+   31  sudo apt install git-core libssl-dev  libffi-dev gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev libz-dev ccache libgl1-mesa-dev libxml2-utils xsltproc unzip
+   32  sudo apt-get install -y libx11-dev:i386 libreadline6-dev:i386 libgl1-mesa-dev g++-multilib git flex bison gperf build-essential libncurses5-dev:i386 tofrodos python-markdown libxml2-utils xsltproc zlib1g-dev:i386 dpkg-dev libsdl1.2-dev libesd0-dev git-core gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev libgl1-mesa-dev libxml2-utils xsltproc unzip m4 lib32z-dev ccache libssl-dev
+   33  sudo apt-get install -y libx11-dev:i386 libreadline6-dev:i386 libgl1-mesa-dev g++-multilib git flex bison gperf build-essential libncurses5-dev:i386 tofrodos python-markdown libxml2-utils xsltproc zlib1g-dev:i386 dpkg-dev libsdl1.2-dev  git-core gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev libgl1-mesa-dev libxml2-utils xsltproc unzip m4 lib32z-dev ccache libssl-dev
+   34  sudo apt-get update && sudo apt-get install libesd0-dev
+   35  sudo vim /etc/apt/sources.list
+   36  sudo apt-get update && sudo apt-get install libesd0-dev
+   37  sudo apt-get install -y libx11-dev:i386 libreadline6-dev:i386 libgl1-mesa-dev g++-multilib git flex bison gperf build-essential libncurses5-dev:i386 tofrodos python-markdown libxml2-utils xsltproc zlib1g-dev:i386 dpkg-dev libsdl1.2-dev libesd0-dev git-core gnupg flex bison gperf build-essential zip curl zlib1g-dev gcc-multilib g++-multilib libc6-dev-i386 lib32ncurses5-dev x11proto-core-dev libx11-dev libgl1-mesa-dev libxml2-utils xsltproc unzip m4 lib32z-dev ccache libssl-dev
+   38  ./repo sync -j 100
+   39  ls
+   40  cd aosp/
+   41  ls
+   42  history 
+   43  source build/envsetup.sh 
+   44  ls
+   45  vi startEmulatorConfig.sh 
+   46  lunch 
+   47  ls
+   48  vi startEmulatorConfig.sh 
+   49  echo user
+   50  echo user | sudo apt update
+   51  sudo apt update <<user
+   52  echo user | sudo -S apt update
+   53  ls
+   54  vim startEmulatorConfig.sh 
+   55  ls
+   56  chmod 777 startEmulatorConfig.sh 
+   57  ls
+   58  vi startEmulatorConfig.sh 
+   59  ls
+   60  sh startEmulatorConfig.sh 
+   61  which souce
+   62  which source
+   63  source
+   64  source which 
+   65  cd aosp/
+   66  ls
+   67  sh startEmulatorConfig.sh 
+   68  cat startEmulatorConfig.sh 
+   69  source build/envsetup.sh 
+   70  lunch 65
+   71  ls
+   72  ./startEmulatorConfig.sh 
+   73  adb devices
+   74  adb connect 127.0.0.1:7001
+   75  ls
+   76  cd aosp/
+   77  ls
+   78  ls -al
+   79  rm -rf .repo/
+   80  source build/envsetup.sh 
+   81  ./startEmulatorConfig.sh 
+   82  rboot
+   83  reboot
+   84  ls
+   85  cd aosp/
+   86  ls
+   87  cd out/
+   88  ls
+   89  cd target/
+   90  ls
+   91  cd product/
+   92  ls
+   93  cd emulator_car_x86_64/
+   94  ls
+   95  cd product/
+   96  ls
+   97  cd app/
+   98  ls
+   99  cd webview/
+  100  ls
+  101  cd
+  102  ls
+  103  cd aosp/
+  104  ls
+  105  ./startEmulatorConfig.sh 
+  106  cd aosp/
+  107  ls
+  108  dh 
+  109  reboot
+  110  history 
+  111  ls
+  112  cd aosp/
+  113  ls
+  114  ./startEmulatorConfig.sh 
+  115  sudo apt-get install fcitx
+  116  ls
+  117  clear
+  118  cat startEmulatorConfig.sh 
+  119  make otapackage
+  120  ls
+  121  cd build/
+  122  ls
+  123  cd core
+  124  ls
+  125  make otapackage
+  126  cd
+  127  ls
+  128  cd aosp/
+  129  ls
+  130  clear
+  131  ls
+  132  sh startEmulatorConfig.sh 
+  133  history 
+  134  ./startEmulatorConfig.sh 
+  135  ls
+  136  cat startEmulatorConfig.sh 
+  137  source build/envsetup.sh 
+  138  lunch 65
+  139  hsi
+  140  history 
+  141  make otapackage
+  142  ls
+  143  cat startEmulatorConfig.sh 
+  144  clear
+  145  ls
+  146  cd kernel/
+  147  ls
+  148  cd prebuilts/
+  149  ls
+  150  cd 5.
+  151  cd 5.4
+  152  ls
+  153  cd arm64/
+  154  ls
+  155  ls -al
+  156  cd
+  157  ls
+  158  clear
+  159  ls
+  160  reboot
+  161  ls
+  162  find . launcher
+  163  find . -name launcher
+  164  find . -name default_workspace.xml
+  165  cd ./external/skia/platform_tools/android/launcher
+  166  ls
+  167  cd ..
+  168  ls
+  169  cd ..
+  170  ls
+  171  cd ..
+  172  ls
+  173  cd ..
+  174  ls
+  175  cd frameworks/
+  176  ls
+  177  cd base/
+  178  ls
+  179  cd ..
+  180  ls
+  181  cd base/
+  182  ls
+  183  cd core/
+  184  ls
+  185  cd 
+  186  cd aosp/
+  187  ls
+  188  find . -name launcher.java
+  189  ls
+  190  cd packages/apps/
+  191  ls
+  192  cd Launcher3/
+  193  ls
+  194  clear
+  195  ls
+  196  cd ..
+  197  ls
+  198  cp -r Launcher3/ ~/aosp/
+  199  ls
+  200  cd Launcher3/
+  201  ls
+  202  cd res/
+  203  ls
+  204  cd xml/
+  205  ls
+  206  ls -al
+  207  reboot
+  208  cd aosp/
+  209  ls
+  210  ./startEmulatorConfig.sh 
+  211  ls
+  212  cd aosp/
+  213  ls
+  214  cd packages/apps/
+  215  ls
+  216  mv ~/Launcher3/ .
+  217  ls
+  218  cd Launcher3/
+  219  ls
+  220  cat Android
+  221  cat Android.bp 
+  222  reboot
+  223  cd aosp/
+  224  ls
+  225  cd out/
+  226  ls
+  227  cd target/
+  228  ls
+  229  cd product/
+  230  ls
+  231  cd emulator_car_x86_64/
+  232  ls
+  233  ls -al *.img
+  234  cd
+  235  ls
+  236  clear
+  237  ls
+  238  cd
+  239  ls
+  240  cd aosp/
+  241  ls
+  242  cat startEmulatorConfig.sh 
+  243  ls
+  244  vi startEmulatorConfig.sh 
+  245  ./startEmulatorConfig.sh 
+  246  ls
+  247  vi startEmulatorConfig.sh 
+  248  make emu_img_zip
+  249  cat startEmulatorConfig.sh 
+  250  source build/envsetup.sh
+  251  lunch 65
+  252  make emu_img_zip
+  253  vi packages/apps/Launcher3/Android.bp
+  254  m emu_img_zip
+  255  lunch
+  256  cat startEmulatorConfig.sh 
+  257  make emu_img_zip
+  258  ls -al packages/apps/
+  259  cd Car
+  260  ls
+  261  history 
+  262  cd packages/apps/
+  263  ls
+  264  cd Ca
+  265  ls
+  266  cd Car
+  267  ls
+  268  cd Launcher/
+  269  ls
+  270  cd ..
+  271  ls
+  272  cd ..
+  273  ls
+  274  tar cvf Launcher3.tar Launcher3/
+  275  ls
+  276  mv Launcher3 ~
+  277  cd
+  278  ls
+  279  cd aosp/
+  280  ls
+  281  make emu_img_zip
+  282  cd out/target/product/emulator_car_x86_64/
+  283  ls
+  284  pwd
+  285  cd
+  286  ls
+  287  cd aosp/
+  288  ls
+  289  ./startEmulatorConfig.sh 
+  290  ls
+  291  cp carlauncher/ ~
+  292  cp -r carlauncher/ ~
+  293  ls
+  294  cd aosp/
+  295  ls
+  296  ./startEmulatorConfig.sh 
+  297  ls
+  298  cat startEmulatorConfig.sh 
+  299  cd
+  300  git config --global user.name "hisangke"
+  301  git config --global user.email "hisangke@gmail.com"
+  302  mkdir carsimulator
+  303  cd carsimulator/
+  304  ls
+  305  git clone https://gitee.com/hisangke/android-13-car-simulator-image.git
+  306  ls -al
+  307  cd android-13-car-simulator-image/
+  308  ls
+  309  ls -al
+  310  cdp ~/aosp/out/target/product/emulator_car_x86_64/sdk-repo-linux-system-images-eng.user.zip .
+  311  cp ~/aosp/out/target/product/emulator_car_x86_64/sdk-repo-linux-system-images-eng.user.zip .
+  312  ls
+  313  uuid
+  314  sudo apt install uuid
+  315  uuid
+  316  clear
+  317  ls
+  318  time
+  319  date
+  320  ls
+  321  date -I
+  322  date "+%Y-%m-%d %H:%M:%S"
+  323  date "+%Y-%m-%d-%H:%M:%S"
+  324  date "+%Y-%m-%d-%H-%M-%S"
+  325  mv sdk-repo-linux-system-images-eng.user.zip sdk-repo-linux-system-images-eng.user-2024-03-18-13-15-01.zip 
+  326  git add sdk-repo-linux-system-images-eng.user-2024-03-18-13-15-01.zip 
+  327  git commit -m "first 13 car-sdk simulator"
+  328  git remote add origin https://gitee.com/hisangke/android-13-car-simulator-image.git
+  329  git push -u origin "master"
+  330  history 
+  331  reboot
+  332  ls
+  333  cd aosp/
+  334  ls
+  335  make clean
+  336  cat startEmulatorConfig.sh 
+  337  source build/envsetup.sh 
+  338  vi startEmulatorConfig.sh 
+  339  ./startEmulatorConfig.sh 
+  340  ls
+  341  clear
+  342  ls
+  343  cd Launcher3/
+  344  ls
+  345  cd ..
+  346  ls
+  347  cd packages/
+  348  ls
+  349  cd apps/
+  350  ls
+  351  cd Ca
+  352  cd Car
+  353  ls
+  354  cd
+  355  ls
+  356  cd carlauncher/
+  357  ls
+  358  cd
+  359  ls
+  360  cd aosp/
+  361  ls
+  362  mv Launcher3/ ..
+  363  ls
+  364  cd packages/
+  365  ls
+  366  cd apps/
+  367  ls
+  368  cd Car
+  369  ls
+  370  cd La
+  371  ls
+  372  cd Launcher/
+  373  ls
+  374  cd src/
+  375  ls
+  376  cd ..
+  377  ls
+  378  cd ..
+  379  ls
+  380  tar cvf Launcher.tar Launcher/
+  381  ls
+  382  mv Launcher.tar ~
+  383  reboot
+  384  ls
+  385  cd aosp/
+  386  ls
+  387  ./startEmulatorConfig.sh 
+  388  ls
+  389  clear
+  390  ls
+  391  clear
+  392  ls
+  393  ls -al
+  394  clear
+  395  ls -al
+  396  cd frameworks/
+  397  ls
+  398  ls -al
+  399  cd base/
+  400  ls
+  401  cd 
+  402  ls
+  403  cd aosp/
+  404  ls
+  405  clear
+  406  ls
+  407  cd packages/
+  408  ls
+  409  cd apps/
+  410  ls
+  411  ls -al
+  412  cd Camera2/
+  413  ls
+  414  clear
+  415  ls
+  416  ls -al
+  417  cd jni/
+  418  ls
+  419  ls -al
+  420  cat jpegutil.cpp 
+  421  cd ..
+  422  ls
+  423  ls -al
+  424  cd src
+  425  ls
+  426  cd com/
+  427  ls
+  428  cd android/
+  429  ls
+  430  cd camera/
+  431  ls
+  432  cd
+  433  ls
+  434  cd aosp/
+  435  ls
+  436  cd packages/
+  437  ls
+  438  cd apps/
+  439  ls
+  440  cd Car
+  441  ls
+  442  cd SystemUI/
+  443  ls
+  444  cd src/
+  445  ls
+  446  cd com/android/systemui/car/
+  447  ls
+  448  cd activity/
+  449  ls
+  450  cd ..
+  451  ls
+  452  cd ..
+  453  ls
+  454  cd ..
+  455  ls
+  456  cd ..
+  457  ls
+  458  cd ..
+  459  ls
+  460  cd ..
+  461  ls
+  462  cd ..
+  463  ls
+  464  cd Launcher/
+  465  ls
+  466  cd src/
+  467  ls
+  468  cd com/
+  469  ls
+  470  cd android/
+  471  ls
+  472  cd car/
+  473  ls
+  474  cd carlauncher/
+  475  ls
+  476  vi CarLauncher.java 
+  477  cd ..
+  478  ls
+  479  cd ..
+  480  ls
+  481  cd ..
+  482  ls
+  483  cd ..
+  484  ls
+  485  cd ..
+  486  ls
+  487  cd res/
+  488  ls
+  489  cd ..
+  490  ls
+  491  cd
+  492  ls
+  493  sudo dpkg -i asfp-2023.2.1.20-linux.deb 
+  494  cd /opt/android-studio-for-platform/bin/
+  495  ls
+  496  cd apo
+  497  cd aosp/
+  498  ls
+  499  cp repo /bin/
+  500  su
+  501  cd aosp/
+  502  ls
+  503  ./startEmulatorConfig.sh 
+  504  ls
+  505  make clean
+  506  cat startEmulatorConfig.sh 
+  507  history 
+  508  reboot
+  509  cd aosp/
+  510  ls
+  511  cat startEmulatorConfig.sh 
+  512  source build/envsetup.sh
+  513  lunch 65
+  514  make
+  515  make -j16
+  516  ./startEmulatorConfig.sh 
+  517  make -j16
+  518  make otapackage
+  519  ls
+  520  vi build.iml 
+  521  cd build/
+  522  ls
+  523  vi buildspec.mk.default 
+  524  cd ..
+  525  cd build/core
+  526  ls
+  527  vi Makefile 
+  528  cd
+  529  cd aosp/
+  530  ls
+  531  mmm packages/apps/Car/Launcher/
+  532  make -j16
+  533  ls
+  534  cat ./startEmulatorConfig.sh 
+  535  emulator
+  536  ./startEmulatorConfig.sh 
+  537  make
+  538  make -j16
+  539  emulator
+  540  ./startEmulatorConfig.sh 
+  541  ls
+  542  cp startEmulatorConfig.sh makeAndStartEmulatorConfig.sh 
+  543  vi makeAndStartEmulatorConfig.sh 
+  544  ./makeAndStartEmulatorConfig.sh 
+  545  reboot
+  546  cd ..
+  547  ls
+  548  vi test.sh
+  549  bash test.sh 
+  550  vi test.sh
+  551  bash test.sh 
+  552  ls
+  553  vi test.sh
+  554  bash test.sh 
+  555  cd aosp/
+  556  ls
+  557  ./makeAndStartEmulatorConfig.sh 
+  558  ./startEmulatorConfig.sh 
+  559  cd aosp/
+  560  ls
+  561  ./startEmulatorConfig.sh 
+  562  ./makeAndStartEmulatorConfig.sh 
+  563  reboot
+  564  cd aosp/
+  565  ls
+  566  rm -rf out
+  567  cd aosp/
+  568  ls
+  569  bash test.sh
+  570  cd /home/user/Desktop
+  571  ls
+  572  bash test.sh 
+  573  cd aosp/
+  574  ls
+  575  cd packages/
+  576  ls
+  577  cd services/
+  578  ls
+  579  cd Car/
+  580  ls
+  581  cd car_product/
+  582  ls
+  583  cd bootanimations/
+  584  ls
+  585  cp bootanimation-832.zip ~
+  586  cd
+  587  ls
+  588  cd /home/user/Desktop/
+  589  cp ~/bootanimation-832.zip file/
+  590  cd aosp/
+  591  ls
+  592  ./makeAndStartEmulatorConfig.sh 
+  593  pwd
+  594  ls
+  595  rm -rf MyApplication/
+  596  ls
+  597  cd Android
+  598  ls
+  599  cd Sdk/
+  600  ls
+  601  cd
+  602  ls
+  603  rm -rf AndroidStudioProjects/
+  604  ls
+  605  cd Do
+  606  ls
+  607  cd Documents/
+  608  ls
+  609  rm -rf Oray/
+  610  cd ..
+  611  ls
+  612  cd systembackup/
+  613  ls
+  614  cd ..
+  615  ls
+  616  ls -al
+  617  cd aosp/
+  618  ls
+  619  cd ..
+  620  ls
+  621  rm -rf Android/
+  622  ls
+  623  ./makeAndStartEmulatorConfig.sh 
+  624  ls
+  625  cd aosp/
+  626  ls
+  627  ./makeAndStartEmulatorConfig.sh 
+  628  cd
+  629  ls
+  630  reboot
+  631  cd /
+  632  ls
+  633  cd tmp/
+  634  ls
+  635  cd ..
+  636  dd
+  637  ls
+  638  cd opt/
+  639  ls
+  640  rm -rf android-studio-for-platform/
+  641  sudo rm -rf android-studio-for-platform/
+  642  cd aosp/
+  643  ls
+  644  ./startEmulatorConfig.sh 
+  645  cat startEmulatorConfig.sh 
+  646  vi startEmulatorConfig.sh 
+  647  reboot
+  648  cd aosp/
+  649  ls
+  650  ./startEmulatorConfig.sh 
+  651  ./makeAndStartEmulatorConfig.sh 
+  652  clear
+  653  history 
+  654  cd
+  655  ls
+  656  history >>history.txt
